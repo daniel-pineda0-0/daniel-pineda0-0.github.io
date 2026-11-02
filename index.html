@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glamping Tunja — Aire puro, atardeceres mágicos</title>
-  <meta name="description" content="Glamping Tunja: domos y cabaña con vista a la ciudad, a las afueras de Tunja, Boyacá. Reserva tu escapada por WhatsApp.">
-  <meta name="theme-color" content="#152218">
-  <meta property="og:title" content="Glamping Tunja — Aire puro, atardeceres mágicos">
-  <meta property="og:description" content="Domos y cabaña con vista a la ciudad, a las afueras de Tunja, Boyacá.">
-  <meta property="og:image" content="img/logo.png">
-  <meta property="og:type" content="website">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="img/favicon.png">
-  <script>document.documentElement.classList.add('js');</script>
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glamping Tunja — Aire puro, atardeceres mágicos</title>
+<meta name="description" content="Glamping Tunja: domos y cabaña con vista a la ciudad, a las afueras de Tunja, Boyacá. Reserva tu escapada por WhatsApp.">
+<meta name="theme-color" content="#152218">
+<meta property="og:title" content="Glamping Tunja — Aire puro, atardeceres mágicos">
+<meta property="og:description" content="Domos y cabaña con vista a la ciudad, a las afueras de Tunja, Boyacá.">
+<meta property="og:image" content="img/logo.png">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
 <nav class="nav" id="nav">
   <div class="wrap">
     <a class="brand" href="#inicio" aria-label="Glamping Tunja, inicio">
-      <img src="img/logo.png" alt="Logo de Glamping Tunja" width="46" height="46">
+      <img src="img/logo.png" alt="Logo de Glamping Tunja" width="68" height="68">
       <span>Glamping Tunja</span>
     </a>
     <div class="nav-links">
@@ -41,6 +41,20 @@
 
 <!-- ---------- HERO ---------- -->
 <header class="hero" id="inicio">
+  <div class="hero-bg">
+    <div class="carousel" data-carousel data-autoplay="5500" data-kenburns aria-roledescription="carrusel" aria-label="Fotos de Glamping Tunja">
+      <div class="slides">
+        <div class="slide is-active"><img src="img/hero-1.jpg" alt="Vista de la ciudad de Tunja al atardecer desde el glamping" fetchpriority="high"></div>
+        <div class="slide"><img src="img/hero-5.jpg" alt="Domo iluminado de noche con la ciudad al fondo" loading="lazy"></div>
+        <div class="slide"><img src="img/hero-3.jpg" alt="Luna sobre el horizonte al atardecer" loading="lazy"></div>
+        <div class="slide"><img src="img/hero-4.jpg" alt="Nubes de colores sobre la sabana" loading="lazy"></div>
+      </div>
+      <button class="car-btn prev" type="button" aria-label="Foto anterior">‹</button>
+      <button class="car-btn next" type="button" aria-label="Foto siguiente">›</button>
+      <div class="dots" role="tablist" aria-label="Seleccionar foto"></div>
+    </div>
+  </div>
+
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <div class="eyebrow">A 15 minutos del centro de Tunja</div>
@@ -51,21 +65,6 @@
         Reservar por WhatsApp
       </a>
       <a class="btn-ghost" href="https://maps.app.goo.gl/uEaTj1vfoSZ7UpxD8?g_st=awb" target="_blank" rel="noopener">Cómo llegar</a>
-    </div>
-
-    <div class="hero-art">
-      <div class="carousel" data-carousel data-autoplay="5000" data-kenburns aria-roledescription="carrusel" aria-label="Fotos de Glamping Tunja">
-        <div class="slides">
-          <div class="slide is-active"><img src="img/hero-1.jpg" alt="Vista de la ciudad de Tunja al atardecer desde el glamping" fetchpriority="high"></div>
-          <div class="slide"><img src="img/hero-2.jpg" alt="Domo del glamping al atardecer" loading="lazy"></div>
-          <div class="slide"><img src="img/hero-3.jpg" alt="Cielo naranja sobre las montañas de Boyacá" loading="lazy"></div>
-          <div class="slide"><img src="img/hero-4.jpg" alt="Nubes de colores sobre la sabana" loading="lazy"></div>
-          <div class="slide"><img src="img/hero-5.jpg" alt="Domo iluminado en la noche" loading="lazy"></div>
-        </div>
-        <button class="car-btn prev" type="button" aria-label="Foto anterior">‹</button>
-        <button class="car-btn next" type="button" aria-label="Foto siguiente">›</button>
-        <div class="dots" role="tablist" aria-label="Seleccionar foto"></div>
-      </div>
     </div>
   </div>
 </header>
@@ -103,13 +102,13 @@
       <div class="stay-media">
         <div class="carousel" data-carousel data-autoplay="4200" aria-roledescription="carrusel" aria-label="Fotos del domo">
           <div class="slides">
-            <div class="slide is-active"><img src="img/domo-1.jpg" alt="Domo con letrero de Glamping Tunja" loading="lazy"></div>
+            <div class="slide is-active"><img src="img/domo-1.jpg" alt="Cama del domo con estructura geodésica" loading="lazy"></div>
+            <div class="slide"><img src="img/domo-8.jpg" alt="Interior del domo con mesa, sillas y vista a las montañas" loading="lazy"></div>
+            <div class="slide"><img src="img/domo-9.jpg" alt="Domo iluminado de noche" loading="lazy"></div>
             <div class="slide"><img src="img/domo-2.jpg" alt="Cama del domo con corazón de pétalos y mesa" loading="lazy"></div>
             <div class="slide"><img src="img/domo-3.jpg" alt="Mesa y sillas dentro del domo" loading="lazy"></div>
             <div class="slide"><img src="img/domo-4.jpg" alt="Cama del domo decorada con pétalos" loading="lazy"></div>
-            <div class="slide"><img src="img/domo-5.jpg" alt="Interior del domo con detalles en la cama" loading="lazy"></div>
-            <div class="slide"><img src="img/domo-6.jpg" alt="Cama king del domo" loading="lazy"></div>
-            <div class="slide"><img src="img/domo-7.jpg" alt="Detalle de decoración en el domo" loading="lazy"></div>
+            <div class="slide"><img src="img/domo-6.jpg" alt="Cama del domo y ventanas panorámicas" loading="lazy"></div>
           </div>
           <button class="car-btn prev" type="button" aria-label="Foto anterior">‹</button>
           <button class="car-btn next" type="button" aria-label="Foto siguiente">›</button>
@@ -164,14 +163,14 @@
         <div class="inc-price"><span>$240.000</span> por pareja</div>
         <div class="inc-sub">1 noche y 2 días en glamping</div>
         <ul class="inc-list">
-          <li><span aria-hidden="true">🛖</span> Noche en glamping con agradable manta térmica</li>
-          <li><span aria-hidden="true">🍷</span> Vino de bienvenida</li>
-          <li><span aria-hidden="true">🌄</span> Mirador inolvidable</li>
-          <li><span aria-hidden="true">🕸️</span> Malla catamarán</li>
-          <li><span aria-hidden="true">🍳</span> Desayuno campestre</li>
-          <li><span aria-hidden="true">🚿</span> Baño privado con agua caliente</li>
-          <li><span aria-hidden="true">🛜</span> Servicio de WiFi</li>
-          <li><span aria-hidden="true">🅿️</span> Estacionamiento</li>
+          <li>Noche en glamping con agradable manta térmica</li>
+          <li>Vino de bienvenida</li>
+          <li>Mirador inolvidable</li>
+          <li>Malla catamarán</li>
+          <li>Desayuno campestre</li>
+          <li>Baño privado con agua caliente</li>
+          <li>Servicio de WiFi</li>
+          <li>Estacionamiento</li>
         </ul>
         <div class="inc-times">
           <div><strong>Check in</strong> desde las 3 pm</div>
@@ -182,9 +181,9 @@
       <div class="inc-card inc-extras reveal">
         <h3>Y si deseas un toque aún más especial…</h3>
         <ul class="extras">
-          <li><span>🌸 Velada romántica con pétalos</span><b>$15.000</b></li>
-          <li><span>🕯️ Velas</span><b>$15.000</b></li>
-          <li><span>🔥 Fogata con 🍡 malvaviscos</span><b>$20.000</b></li>
+          <li><span>Velada romántica con pétalos</span><b>$15.000</b></li>
+          <li><span>Velas</span><b>$15.000</b></li>
+          <li><span>Fogata con malvaviscos</span><b>$20.000</b></li>
         </ul>
         <p class="note">Opcionales. Escríbenos para confirmar disponibilidad.</p>
         <div class="inc-actions">
@@ -205,7 +204,7 @@
       <button class="tile t1" type="button"><img src="img/gal-1.jpg" alt="Fogata en el glamping de noche" loading="lazy"></button>
       <button class="tile t2" type="button"><img src="img/hero-1.jpg" alt="Atardecer sobre Tunja" loading="lazy"></button>
       <button class="tile t3" type="button"><img src="img/gal-7.jpg" alt="Cabaña decorada con globos y pétalos" loading="lazy"></button>
-      <button class="tile t4" type="button"><img src="img/gal-3.jpg" alt="Mesa con pétalos y velas" loading="lazy"></button>
+      <button class="tile t4" type="button"><img src="img/gal-8.jpg" alt="Hamaca y zona de picnic con pacas de paja" loading="lazy"></button>
       <button class="tile t5" type="button"><img src="img/gal-4.jpg" alt="Cama del domo con detalles de bienvenida" loading="lazy"></button>
       <button class="tile t6" type="button"><img src="img/gal-5.jpg" alt="Luces de la ciudad desde la montaña" loading="lazy"></button>
     </div>
@@ -271,7 +270,7 @@
       </div>
     </div>
     <div class="foot-row">
-      <span>Glamping Tunja — a las afueras de Tunja, Boyacá</span>
+      <span class="foot-brand"><img src="img/logo.png" alt="Logo de Glamping Tunja" width="84" height="84"><span>Glamping Tunja<br>A las afueras de Tunja, Boyacá</span></span>
       <span class="foot-links">
         <a href="https://maps.app.goo.gl/uEaTj1vfoSZ7UpxD8?g_st=awb" target="_blank" rel="noopener">Ubicación</a>
         <a href="https://wa.me/573028401621" target="_blank" rel="noopener">WhatsApp</a>
